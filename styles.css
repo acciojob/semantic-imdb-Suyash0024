@@ -1,2 +1,45 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header, nav, section, aside, footer {
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      background-color: #4a148c;
+      color: #fff;
+    }
+
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #8e24aa;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section h2, aside h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      font-weight: bold;
+      background-color: #4a148c;
+      color: #fff;
+    }
